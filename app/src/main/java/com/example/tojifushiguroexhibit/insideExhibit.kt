@@ -88,10 +88,19 @@ class insideExhibit : AppCompatActivity() {
             )
 
             "Toji defeat the six eyes and infinity user" -> startActivity(
-                Intent(
-                    this, Toji_defeat::class.java
-                )
+                Intent(this, Toji_defeat::class.java)
             )
+
+            "Toji and Gojo final battle" -> startActivity(
+                Intent(this, Toji_final::class.java)
+            )
+
+            "The revival of a man unchained from the Zenin curse" -> startActivity(
+                Intent(this, Toji_revival::class.java)
+            )
+
+
+
             // Add more cases for other titles and corresponding activities
         }
 
